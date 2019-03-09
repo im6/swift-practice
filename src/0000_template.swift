@@ -1,6 +1,6 @@
 class Solution {
-  func yourQuestion(_ a: Int, _ b: Int) -> Int {
-    return a + b
+  func yourQuestion(externalName internalName: Int, a: Int) -> Int {
+    return a + internalName 
   }
 }
 
